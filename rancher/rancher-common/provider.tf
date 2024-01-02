@@ -44,5 +44,5 @@ provider "rancher2" {
   insecure = true
   # ca_certs  = data.kubernetes_secret.rancher_cert.data["ca.crt"]
   token_key = rancher2_bootstrap.admin.token
-  timeout   = "300s"
+  timeout   = "3000s"
 }
