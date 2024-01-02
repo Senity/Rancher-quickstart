@@ -3,10 +3,10 @@
 kubeconfig_path = "kube-config.yaml"
 
 # Name of the kubernetes context to use to the Harvester cluster
-kubecontext = ""
+kubecontext = "local"
 
 # Name of the Harvester network to deploy the VMs into
-network_name = ""
+network_name = "local"
 
 # Admin password to use for Rancher server bootstrap, min. 12 characters
 rancher_server_admin_password = "qk8JZJ8m0M02aHVa"
