@@ -47,8 +47,8 @@ resource "harvester_virtualmachine" "rancher_server" {
     ssh-user = "ubuntu"
   }
 
-  cpu    = 2
-  memory = "4Gi"
+  cpu    = 4
+  memory = "16Gi"
 
   efi         = true
   secure_boot = true
@@ -141,8 +141,8 @@ resource "harvester_virtualmachine" "quickstart_node" {
     ssh-user = "ubuntu"
   }
 
-  cpu    = 2
-  memory = "4Gi"
+  cpu    = 4
+  memory = "16Gi"
 
   efi         = true
   secure_boot = true
