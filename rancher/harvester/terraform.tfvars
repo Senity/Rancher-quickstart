@@ -6,7 +6,7 @@ kubeconfig_path = "kube-config.yaml"
 kubecontext = ""
 
 # Name of the Harvester network to deploy the VMs into
-network_name = "dev"
+network_name = ""
 
 # Admin password to use for Rancher server bootstrap, min. 12 characters
 rancher_server_admin_password = "qk8JZJ8m0M02aHVa"
